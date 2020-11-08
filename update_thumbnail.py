@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# Usage:
+# $ cd jiashengwu.github.io
+# $ python update_thumbnail.py
+
 import os
 from pdf2image import convert_from_path
 from PIL import Image
